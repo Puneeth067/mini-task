@@ -1,0 +1,66 @@
+# Logs
+logs/
+*.log
+*.log.*
+*.out
+*.err
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.idea/
+*.sqlite3
+.DS_Store
+
+# AWS Lambda
+.aws-sam/
+.terraform/
+*.zip
+
+# Ignore generated data files
+ingestion/*.parquet
+ingestion/*.csv
+ingestion/*.json
+ingestion/*.xlsx
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE/Editor settings
+.vscode/
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+
+# Docker
+docker-compose.override.yml
+
+dist/
+build/
+*.egg-info/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
